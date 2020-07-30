@@ -1,11 +1,15 @@
 ### Homebrew
+```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
 ### Git
+```
 brew install git
 git config --global user.name "yuyang041060120"
 git config --global user.email "yuyang041060120@gmail.com"
 git config --global core.editor "vim"
+```
 
 ### Zsh
 ```
@@ -89,13 +93,17 @@ systemctl enable shadowsocks-server
 ```
 
 ### Nvm
+```
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.7/install.sh | bash
+```
 
 ### Nginx
+```
 brew install nginx
 vim /usr/local/etc/nginx/nginx.conf
 sudo nginx
 sudo nginx -s stop
+```
 
 ### Others
 - [GIPHT CAPTURE](https://itunes.apple.com/us/app/giphy-capture.-the-gif-maker/id668208984?mt=12)
