@@ -11,6 +11,14 @@ git config --global user.email "yuyang041060120@gmail.com"
 git config --global core.editor "vim"
 ```
 
+generate ssh key
+
+```
+ssh-keygen -t rsa -b 4096 -C "xxx@yyy.com"
+
+```
+
+
 ### Zsh
 ```
 apt install zsh
